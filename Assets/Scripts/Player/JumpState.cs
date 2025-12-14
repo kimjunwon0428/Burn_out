@@ -10,7 +10,7 @@ public class JumpState : PlayerState
     private Rigidbody2D _rb;
 
     // 점프 설정
-    private float _jumpForce = 12f;
+    private float _jumpForce = 19f;
     private bool _hasJumped;
 
     public JumpState(PlayerController controller, PlayerStateMachine stateMachine, PlayerMovement movement)

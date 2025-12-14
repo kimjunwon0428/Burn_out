@@ -12,11 +12,13 @@ public class TrainingDummyUI : MonoBehaviour
     [SerializeField] private Color _textColor = Color.white;
     [SerializeField] private Color _damageColor = Color.red;
     [SerializeField] private Color _durabilityColor = Color.yellow;
+    [SerializeField] private Color _statusColor = Color.cyan;
 
     private TrainingDummy _dummy;
     private GUIStyle _labelStyle;
     private GUIStyle _damageStyle;
     private GUIStyle _durabilityStyle;
+    private GUIStyle _statusStyle;
 
     // 피해 표시 타이머
     private float _damageDisplayTimer;
@@ -86,6 +88,12 @@ public class TrainingDummyUI : MonoBehaviour
             _durabilityStyle = new GUIStyle(_labelStyle);
             _durabilityStyle.normal.textColor = _durabilityColor;
         }
+
+        if (_statusStyle == null)
+        {
+            _statusStyle = new GUIStyle(_labelStyle);
+            _statusStyle.normal.textColor = _statusColor;
+        }
     }
 
     private void OnGUI()
@@ -97,7 +105,7 @@ public class TrainingDummyUI : MonoBehaviour
         float padding = 10f;
         float lineHeight = _fontSize + 5f;
         float boxWidth = 300f;
-        float boxHeight = lineHeight * 4 + padding * 2;
+        float boxHeight = lineHeight * 6 + padding * 2;
 
         // 우측 상단 위치
         Rect boxRect = new Rect(
@@ -118,10 +126,38 @@ public class TrainingDummyUI : MonoBehaviour
             "<b>[ Training Dummy ]</b>", _labelStyle);
         y += lineHeight;
 
+        // 상태 표시
+        string statusText;
+        GUIStyle statusStyle;
+        if (_dummy.IsDead)
+        {
+            statusText = "상태: 사망";
+            statusStyle = _damageStyle;
+        }
+        else if (_dummy.IsGroggy)
+        {
+            statusText = "상태: 그로기";
+            statusStyle = _durabilityStyle;
+        }
+        else
+        {
+            statusText = "상태: 정상";
+            statusStyle = _statusStyle;
+        }
+        GUI.Label(new Rect(x, y, boxWidth - padding, lineHeight),
+            statusText, statusStyle);
+        y += lineHeight;
+
         // 체력
         string healthText = $"체력: {_dummy.CurrentHealth:F0} / {_dummy.MaxHealth:F0}";
         GUI.Label(new Rect(x, y, boxWidth - padding, lineHeight),
             healthText, _labelStyle);
+        y += lineHeight;
+
+        // 강인도 (항상 표시)
+        string durabilityText = $"강인도: {_dummy.CurrentDurability:F0} / {_dummy.MaxDurability:F0}";
+        GUI.Label(new Rect(x, y, boxWidth - padding, lineHeight),
+            durabilityText, _labelStyle);
         y += lineHeight;
 
         // 마지막 피해량
@@ -141,15 +177,14 @@ public class TrainingDummyUI : MonoBehaviour
         // 마지막 강인도 피해량
         if (_durabilityDisplayTimer > 0 && _dummy.LastDurabilityDamage > 0)
         {
-            string durabilityText = $"강인도 피해: {_dummy.LastDurabilityDamage:F1}";
+            string durabilityDmgText = $"강인도 피해: {_dummy.LastDurabilityDamage:F1}";
             GUI.Label(new Rect(x, y, boxWidth - padding, lineHeight),
-                durabilityText, _durabilityStyle);
+                durabilityDmgText, _durabilityStyle);
         }
         else
         {
-            string durabilityText = $"강인도: {_dummy.CurrentDurability:F0} / {_dummy.MaxDurability:F0}";
             GUI.Label(new Rect(x, y, boxWidth - padding, lineHeight),
-                durabilityText, _labelStyle);
+                "강인도 피해: -", _labelStyle);
         }
     }
 }
