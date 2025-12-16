@@ -53,6 +53,12 @@ public class TrainingDummy : MonoBehaviour
             _durability.OnDurabilityDamage += OnDurabilityDamage;
             _durability.OnGroggyStart += OnGroggyStart;
         }
+
+        // 체력바 생성
+        if (_health != null && EnemyHealthBarManager.Instance != null)
+        {
+            EnemyHealthBarManager.Instance.CreateEnemyHealthBar(_health, transform);
+        }
     }
 
     private void OnDestroy()
