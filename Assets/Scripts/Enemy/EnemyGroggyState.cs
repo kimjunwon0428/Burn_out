@@ -14,7 +14,7 @@ public class EnemyGroggyState : EnemyState
     {
         base.OnEnter();
         _controller.StopMovement();
-        _controller.Animator?.SetTrigger("HitTrigger");
+        _controller.Animator?.SetTrigger("GroggyTrigger");
 
         Debug.Log($"{_controller.gameObject.name}: GROGGY! Can be executed!");
     }

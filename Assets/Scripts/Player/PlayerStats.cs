@@ -1,5 +1,6 @@
 using UnityEngine;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 
 /// <summary>
@@ -272,6 +273,27 @@ public class PlayerStats : MonoBehaviour
         _temporaryModifiers.Add(modifier);
         MarkDirty();
         Debug.Log($"Modifier added: {modifier}");
+    }
+
+    /// <summary>
+    /// 지속 시간이 있는 임시 수정자 추가 (버프 등)
+    /// </summary>
+    /// <param name="modifier">스탯 수정자</param>
+    /// <param name="duration">지속 시간 (초)</param>
+    public void AddTemporaryModifier(StatModifier modifier, float duration)
+    {
+        AddTemporaryModifier(modifier);
+        StartCoroutine(RemoveModifierAfterDuration(modifier, duration));
+    }
+
+    /// <summary>
+    /// 지정 시간 후 수정자 자동 제거
+    /// </summary>
+    private IEnumerator RemoveModifierAfterDuration(StatModifier modifier, float duration)
+    {
+        yield return new WaitForSeconds(duration);
+        RemoveTemporaryModifier(modifier);
+        Debug.Log($"Temporary modifier expired: {modifier}");
     }
 
     /// <summary>

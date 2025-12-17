@@ -119,8 +119,19 @@ public class AttackState : PlayerState
 
     public override void CheckTransitions()
     {
-        // 공격 종료 후 상태 전환 (스탯 기반 지속 시간)
-        if (_attackTimer >= AttackDuration)
+        // 최소 데미지 판정 시간 이후에만 전환 체크
+        if (_attackTimer < DamageTimingEnd) return;
+
+        var stateInfo = _controller.Animator.GetCurrentAnimatorStateInfo(0);
+
+        // 현재 애니메이션 상태 확인
+        string expectedState = _attackType == AttackType.Light ? "LightAttack" : "HeavyAttack";
+        bool isInAttackAnim = stateInfo.IsName(expectedState);
+
+        // 애니메이션 완료 조건: 공격 애니메이션이 아니거나 95% 이상 진행됨
+        bool animationComplete = !isInAttackAnim || stateInfo.normalizedTime >= 0.95f;
+
+        if (animationComplete)
         {
             // 이동 입력이 있으면 Move, 없으면 Idle
             if (InputManager.Instance.MoveInput.magnitude > 0.1f)
@@ -150,8 +161,11 @@ public class AttackState : PlayerState
         Vector2 attackDirection = new Vector2(_movement.FacingDirection, 0);
         Vector2 attackCenter = attackOrigin + attackDirection * (_attackRange * 0.5f);
 
+        Debug.Log($"[Player Attack] Origin: {attackOrigin}, Center: {attackCenter}, Range: {_attackRange * 0.5f}, EnemyLayerMask: {_enemyLayer.value}");
+
         // 범위 내 적 탐색
         Collider2D[] hits = Physics2D.OverlapCircleAll(attackCenter, _attackRange * 0.5f, _enemyLayer);
+        Debug.Log($"[Player Attack] Found {hits.Length} enemies in range");
 
         float damage = AttackDamage * DamageMultiplier;
         float durabilityDamage = damage * 0.5f * DurabilityDamageMultiplier * ExtraDurabilityMultiplier;

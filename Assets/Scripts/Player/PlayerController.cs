@@ -46,13 +46,42 @@ public class PlayerController : MonoBehaviour
 
         // 체력 이벤트 구독
         _health.OnDeath += OnPlayerDeath;
+
+        // Player 레이어 설정 (Enemy와 충돌 방지)
+        int playerLayer = LayerMask.NameToLayer("Player");
+        int enemyLayer = LayerMask.NameToLayer("Enemy");
+        gameObject.layer = playerLayer;
+
+        // 런타임에 Player-Enemy 충돌 비활성화
+        Physics2D.IgnoreLayerCollision(playerLayer, enemyLayer, true);
+        Debug.Log($"[Player] Layer: {playerLayer}, Ignoring collision with Enemy({enemyLayer})");
     }
 
     private void Start()
     {
         // 시작 상태를 Idle로 설정
         _stateMachine.Initialize(new IdleState(this, _stateMachine, _movement));
+
+        // 모든 트리거 초기화 (의도치 않은 애니메이션 방지)
+        ResetAllAnimatorTriggers();
+
         Debug.Log("PlayerController initialized");
+    }
+
+    /// <summary>
+    /// 모든 Animator 트리거를 리셋하여 의도치 않은 애니메이션 재생 방지
+    /// </summary>
+    private void ResetAllAnimatorTriggers()
+    {
+        if (_animator == null) return;
+
+        _animator.ResetTrigger("AttackTrigger");
+        _animator.ResetTrigger("HeavyAttackTrigger");
+        _animator.ResetTrigger("SpecialAttackTrigger");
+        _animator.ResetTrigger("DodgeTrigger");
+        _animator.ResetTrigger("HitTrigger");
+        _animator.ResetTrigger("ParryTrigger");
+        _animator.ResetTrigger("ExecutionTrigger");
     }
 
     private void Update()
@@ -106,7 +135,27 @@ public class PlayerController : MonoBehaviour
     private void OnPlayerDeath()
     {
         Debug.Log("Player died!");
-        // TODO: 게임 오버 처리, 사망 애니메이션 등
+
+        // 1. 이동 잠금
+        _movement.LockMovement();
+
+        // 2. 사망 애니메이션
+        _animator?.SetTrigger("DeathTrigger");
+
+        // 3. 런 종료 처리 (실패)
+        if (RunManager.Instance != null)
+        {
+            RunManager.Instance.EndRun(false);
+        }
+
+        // 4. 임시 버프 초기화
+        if (PlayerStats.Instance != null)
+        {
+            PlayerStats.Instance.ClearTemporaryModifiers();
+        }
+
+        // 5. 게임오버 이벤트 (GameManager가 구독하여 UI 표시 등 처리)
+        // GameManager.Instance?.OnPlayerDeath();
     }
 
     /// <summary>
@@ -114,7 +163,8 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     /// <param name="damage">받을 데미지</param>
     /// <param name="canBeGuarded">가드 가능 여부</param>
-    public void TakeDamage(float damage, bool canBeGuarded = true)
+    /// <param name="attacker">공격자 (퍼펙트 가드 시 내구력 데미지용)</param>
+    public void TakeDamage(float damage, bool canBeGuarded = true, EnemyController attacker = null)
     {
         // 현재 상태 확인
         var currentState = _stateMachine.CurrentState;
@@ -135,9 +185,20 @@ public class PlayerController : MonoBehaviour
         if (isGuarding && currentState is GuardState guardState)
         {
             isPerfectGuard = guardState.IsInPerfectGuardWindow;
+
+            // 가드 상태에서 데미지 처리 (공격자 정보 전달)
+            float actualDamage = guardState.ProcessGuardedDamage(damage, canBeGuarded, attacker);
+            if (actualDamage > 0)
+            {
+                _health.TakeDamage(actualDamage, canBeGuarded, true, false);
+            }
+            return;
         }
 
         // Health 컴포넌트에 데미지 전달
         _health.TakeDamage(damage, canBeGuarded, isGuarding, isPerfectGuard);
+
+        // 피격 애니메이션 재생
+        _animator?.SetTrigger("HitTrigger");
     }
 }

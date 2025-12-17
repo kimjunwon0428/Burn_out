@@ -13,6 +13,9 @@ public class ExecutionSystem : MonoBehaviour
     [SerializeField] private float _executionDuration = 1f;   // 처형 애니메이션 시간
     [SerializeField] private LayerMask _enemyLayer;
 
+    // 플레이어 애니메이터 참조
+    private Animator _playerAnimator;
+
     // 이벤트
     public event Action<EnemyController> OnExecutionStart;
     public event Action<EnemyController> OnExecutionComplete;
@@ -21,6 +24,9 @@ public class ExecutionSystem : MonoBehaviour
     private bool _isExecuting;
     private EnemyController _executionTarget;
     private float _executionTimer;
+
+    // 플레이어 참조 (처형 중 이동 잠금용)
+    private PlayerMovement _playerMovement;
 
     public bool IsExecuting => _isExecuting;
 
@@ -93,6 +99,14 @@ public class ExecutionSystem : MonoBehaviour
     }
 
     /// <summary>
+    /// 플레이어 애니메이터 설정 (PlayerController에서 호출)
+    /// </summary>
+    public void SetPlayerAnimator(Animator animator)
+    {
+        _playerAnimator = animator;
+    }
+
+    /// <summary>
     /// 처형 시작
     /// </summary>
     private void StartExecution(EnemyController target)
@@ -104,9 +118,18 @@ public class ExecutionSystem : MonoBehaviour
         Debug.Log($"Execution started on {target.gameObject.name}!");
         OnExecutionStart?.Invoke(target);
 
-        // TODO: 처형 애니메이션 트리거
-        // TODO: 플레이어 이동 잠금
-        // TODO: 적 고정
+        // 처형 애니메이션 트리거
+        _playerAnimator?.SetTrigger("ExecutionTrigger");
+
+        // 플레이어 이동 잠금
+        if (_playerMovement == null)
+        {
+            _playerMovement = FindObjectOfType<PlayerMovement>();
+        }
+        _playerMovement?.LockMovement();
+
+        // 적 고정 (처형 중 이동 불가)
+        target.FreezeForExecution();
     }
 
     /// <summary>
@@ -145,6 +168,9 @@ public class ExecutionSystem : MonoBehaviour
             OnExecutionComplete?.Invoke(_executionTarget);
         }
 
+        // 플레이어 이동 잠금 해제
+        _playerMovement?.UnlockMovement();
+
         _isExecuting = false;
         _executionTarget = null;
     }
@@ -157,6 +183,13 @@ public class ExecutionSystem : MonoBehaviour
         if (_isExecuting)
         {
             Debug.Log("Execution cancelled!");
+
+            // 플레이어 이동 잠금 해제
+            _playerMovement?.UnlockMovement();
+
+            // 적 고정 해제
+            _executionTarget?.UnfreezeFromExecution();
+
             _isExecuting = false;
             _executionTarget = null;
         }

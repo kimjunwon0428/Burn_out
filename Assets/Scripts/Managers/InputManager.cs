@@ -15,6 +15,7 @@ public class InputManager : MonoBehaviour
     public Vector2 MoveInput { get; private set; }
     public bool AttackPressed { get; private set; }        // 좌클릭 약공격
     public bool HeavyAttackPressed { get; private set; }   // 우클릭 강공격
+    public bool SpecialAttackPressed { get; private set; } // Q키 특수공격
     public bool DodgePressed { get; private set; }  // Shift로 Dodge
     public bool GuardHeld { get; private set; }     // E키로 Guard
     public bool JumpPressed { get; private set; }   // Space로 Jump
@@ -41,16 +42,17 @@ public class InputManager : MonoBehaviour
 
         // 버튼 입력 이벤트 구독
         _inputActions.Player.Attack.performed += OnAttackPerformed;
-        // HeavyAttack 액션은 Unity가 InputSystem_Actions.cs 재생성 후 사용 가능
-        // 현재는 수동으로 바인딩 (우클릭 직접 체크)
+        _inputActions.Player.HeavyAttack.performed += OnHeavyAttackPerformed;
+        _inputActions.Player.SpecialAttack.performed += OnSpecialAttackPerformed;
         _inputActions.Player.Jump.performed += OnJumpPerformed;
-        // Dodge 액션 (inputactions에서 Dodge로 이름 변경됨, 재생성 전까지 Sprint 사용)
         _inputActions.Player.Sprint.performed += OnDodgePerformed;
     }
 
     private void OnDisable()
     {
         _inputActions.Player.Attack.performed -= OnAttackPerformed;
+        _inputActions.Player.HeavyAttack.performed -= OnHeavyAttackPerformed;
+        _inputActions.Player.SpecialAttack.performed -= OnSpecialAttackPerformed;
         _inputActions.Player.Jump.performed -= OnJumpPerformed;
         _inputActions.Player.Sprint.performed -= OnDodgePerformed;
 
@@ -61,14 +63,7 @@ public class InputManager : MonoBehaviour
     {
         // 매 프레임 입력 값 업데이트
         MoveInput = _inputActions.Player.Move.ReadValue<Vector2>();
-        GuardHeld = _inputActions.Player.Interact.IsPressed();  // E키로 Guard
-
-        // HeavyAttack: Unity가 InputSystem_Actions.cs 재생성 전까지 마우스 직접 체크
-        if (UnityEngine.InputSystem.Mouse.current != null &&
-            UnityEngine.InputSystem.Mouse.current.rightButton.wasPressedThisFrame)
-        {
-            HeavyAttackPressed = true;
-        }
+        GuardHeld = _inputActions.Player.Guard.IsPressed();  // E키로 Guard
     }
 
     private void LateUpdate()
@@ -78,6 +73,8 @@ public class InputManager : MonoBehaviour
             AttackPressed = false;
         if (HeavyAttackPressed)
             HeavyAttackPressed = false;
+        if (SpecialAttackPressed)
+            SpecialAttackPressed = false;
         if (JumpPressed)
             JumpPressed = false;
         if (DodgePressed)
@@ -92,6 +89,11 @@ public class InputManager : MonoBehaviour
     private void OnHeavyAttackPerformed(InputAction.CallbackContext context)
     {
         HeavyAttackPressed = true;
+    }
+
+    private void OnSpecialAttackPerformed(InputAction.CallbackContext context)
+    {
+        SpecialAttackPressed = true;
     }
 
     private void OnJumpPerformed(InputAction.CallbackContext context)
@@ -113,6 +115,11 @@ public class InputManager : MonoBehaviour
     public void ConsumeHeavyAttackInput()
     {
         HeavyAttackPressed = false;
+    }
+
+    public void ConsumeSpecialAttackInput()
+    {
+        SpecialAttackPressed = false;
     }
 
     public void ConsumeJumpInput()

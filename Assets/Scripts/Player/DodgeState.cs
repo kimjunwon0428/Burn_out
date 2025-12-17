@@ -155,14 +155,23 @@ public class DodgeState : PlayerState
     /// </summary>
     private void OnPerfectDodge()
     {
-        // TODO: 퍼펙트 닷지 보상
-        // - 특수 자원 충전
-        // - 다음 공격 강화 버프
-        // - 이펙트/사운드
-
         Debug.Log("Perfect Dodge! Bonus activated!");
 
-        // 퍼펙트 닷지 보상 이벤트 발생 (Phase 2에서 확장)
-        // PlayerController의 특수 자원 충전 메서드 호출 예정
+        // 1. 다음 공격 강화 버프 (+50% 공격력, 3초 지속)
+        if (PlayerStats.Instance != null)
+        {
+            var attackBuff = StatModifier.Percent(StatType.AttackPower, 0.5f);
+            PlayerStats.Instance.AddTemporaryModifier(attackBuff, 3f);
+            Debug.Log("Perfect Dodge buff: +50% Attack Power for 3 seconds");
+        }
+
+        // 2. 런 통계 기록
+        if (RunManager.Instance != null)
+        {
+            RunManager.Instance.RecordPerfectDodge();
+        }
+
+        // 3. 퍼펙트 닷지 이펙트 (추후 VFX 연동)
+        // VFXManager.Instance?.PlayPerfectDodgeEffect(_controller.transform.position);
     }
 }
