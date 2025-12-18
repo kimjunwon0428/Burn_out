@@ -1,0 +1,1495 @@
+fileFormatVersion: 2
+guid: 855838631f5737d4a810677c4c386dc0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2467750671576696017
+    second: PlayStyle_Scavenger_0
+  - first:
+      213: -1254774848459409388
+    second: PlayStyle_Scavenger_1
+  - first:
+      213: 1457754416682399380
+    second: PlayStyle_Scavenger_2
+  - first:
+      213: 7289349885440228495
+    second: PlayStyle_Scavenger_3
+  - first:
+      213: -5803732408867499970
+    second: PlayStyle_Scavenger_4
+  - first:
+      213: -4217845246817637252
+    second: PlayStyle_Scavenger_5
+  - first:
+      213: -1292673780818553982
+    second: PlayStyle_Scavenger_6
+  - first:
+      213: 4933597803481194663
+    second: PlayStyle_Scavenger_7
+  - first:
+      213: 3485543636710651487
+    second: PlayStyle_Scavenger_8
+  - first:
+      213: -8133271137445884530
+    second: PlayStyle_Scavenger_9
+  - first:
+      213: -1927716399533324745
+    second: PlayStyle_Scavenger_10
+  - first:
+      213: -2997711082671846935
+    second: PlayStyle_Scavenger_11
+  - first:
+      213: -7830719964075011705
+    second: PlayStyle_Scavenger_12
+  - first:
+      213: 5021962096888623834
+    second: PlayStyle_Scavenger_13
+  - first:
+      213: 5456238912129109452
+    second: PlayStyle_Scavenger_14
+  - first:
+      213: 6404518450115167459
+    second: PlayStyle_Scavenger_15
+  - first:
+      213: 7104306580826422587
+    second: PlayStyle_Scavenger_16
+  - first:
+      213: -2179876571466070111
+    second: PlayStyle_Scavenger_17
+  - first:
+      213: 652668357703763696
+    second: PlayStyle_Scavenger_18
+  - first:
+      213: 4788125455485248160
+    second: PlayStyle_Scavenger_19
+  - first:
+      213: -8834021478998452876
+    second: PlayStyle_Scavenger_20
+  - first:
+      213: 7495620378511034527
+    second: PlayStyle_Scavenger_21
+  - first:
+      213: -7922182049350272683
+    second: PlayStyle_Scavenger_22
+  - first:
+      213: 1462839079350863731
+    second: PlayStyle_Scavenger_23
+  - first:
+      213: 2307338984220911332
+    second: PlayStyle_Scavenger_24
+  - first:
+      213: 3943843062320431599
+    second: PlayStyle_Scavenger_25
+  - first:
+      213: 3383967896517922940
+    second: PlayStyle_Scavenger_26
+  - first:
+      213: 4317209649158727413
+    second: PlayStyle_Scavenger_27
+  - first:
+      213: -7608924036152482542
+    second: PlayStyle_Scavenger_28
+  - first:
+      213: 3002759952650606969
+    second: PlayStyle_Scavenger_29
+  - first:
+      213: -2108180608316638453
+    second: PlayStyle_Scavenger_30
+  - first:
+      213: -5346557586971493264
+    second: PlayStyle_Scavenger_31
+  - first:
+      213: 667701603252810591
+    second: PlayStyle_Scavenger_32
+  - first:
+      213: 7415224408101459449
+    second: PlayStyle_Scavenger_33
+  - first:
+      213: -6437334262386161477
+    second: PlayStyle_Scavenger_34
+  - first:
+      213: -413787332953606220
+    second: PlayStyle_Scavenger_35
+  - first:
+      213: -3840456479189302114
+    second: PlayStyle_Scavenger_36
+  - first:
+      213: 2818871452419822274
+    second: PlayStyle_Scavenger_37
+  - first:
+      213: 6646838731479858873
+    second: PlayStyle_Scavenger_38
+  - first:
+      213: 5157826651398943197
+    second: PlayStyle_Scavenger_39
+  - first:
+      213: -1933103207347951323
+    second: PlayStyle_Scavenger_40
+  - first:
+      213: 4923909812914734890
+    second: PlayStyle_Scavenger_41
+  - first:
+      213: -3624465800183731349
+    second: PlayStyle_Scavenger_42
+  - first:
+      213: 6400006594428862372
+    second: PlayStyle_Scavenger_43
+  - first:
+      213: 4898943258925647188
+    second: PlayStyle_Scavenger_44
+  - first:
+      213: -9060924184414646560
+    second: PlayStyle_Scavenger_45
+  - first:
+      213: 9087778559353907774
+    second: PlayStyle_Scavenger_46
+  - first:
+      213: 7410759140641016926
+    second: PlayStyle_Scavenger_47
+  - first:
+      213: 5923821755558111305
+    second: PlayStyle_Scavenger_48
+  - first:
+      213: -243265261195169218
+    second: PlayStyle_Scavenger_49
+  - first:
+      213: -5425436805475241946
+    second: PlayStyle_Scavenger_50
+  - first:
+      213: -2089514848879735830
+    second: PlayStyle_Scavenger_51
+  - first:
+      213: 8094068430386662470
+    second: PlayStyle_Scavenger_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 406
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b7072c6d9c0cdd0800000000000000
+      internalID: -2467750671576696017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 409
+        width: 20
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4187b746ce4269ee0800000000000000
+      internalID: -1254774848459409388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 410
+        width: 21
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4967c102bebfa3410800000000000000
+      internalID: 1457754416682399380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_3
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 409
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8cf235a919f82560800000000000000
+      internalID: 7289349885440228495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 409
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30d706af10057fa0800000000000000
+      internalID: -5803732408867499970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_5
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 412
+        width: 21
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c6dd958143775c0800000000000000
+      internalID: -4217845246817637252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_6
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 400
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28359d39b008f0ee0800000000000000
+      internalID: -1292673780818553982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 409
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0e42d1019a77440800000000000000
+      internalID: 4933597803481194663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_8
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 413
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56f24b68732f5030800000000000000
+      internalID: 3485543636710651487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_9
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 123
+        width: 283
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8dc99e0ef0d02f80800000000000000
+      internalID: -8133271137445884530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7360f1ae5206f35e0800000000000000
+      internalID: -1927716399533324745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_11
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 81
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9c71227adf566d0800000000000000
+      internalID: -2997711082671846935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 64
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781dfbd7ea1b35390800000000000000
+      internalID: -7830719964075011705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_13
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 64
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2b58c6be791b540800000000000000
+      internalID: 5021962096888623834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_14
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 64
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd8e17d16478bb40800000000000000
+      internalID: 5456238912129109452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_15
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 81
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4cc88099b61e850800000000000000
+      internalID: 6404518450115167459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_16
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 64
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3df0ade131979260800000000000000
+      internalID: 7104306580826422587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_17
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 64
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a78197cec58fb1e0800000000000000
+      internalID: -2179876571466070111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_18
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 64
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f60211d96ebe0900800000000000000
+      internalID: 652668357703763696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_19
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 64
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a22432bbb6d27240800000000000000
+      internalID: 4788125455485248160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_20
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 64
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475502ef440476580800000000000000
+      internalID: -8834021478998452876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_21
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 64
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f984450550bc50860800000000000000
+      internalID: 7495620378511034527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_22
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559308e4661ce0290800000000000000
+      internalID: -7922182049350272683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_23
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 64
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3778448646c0d4410800000000000000
+      internalID: 1462839079350863731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_24
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 58
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6e5e2d490550020800000000000000
+      internalID: 2307338984220911332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_25
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 64
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe18f7bae585bb630800000000000000
+      internalID: 3943843062320431599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70d6437fd446fe20800000000000000
+      internalID: 3383967896517922940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_27
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 64
+        width: 7
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6aef66d4fc9eb30800000000000000
+      internalID: 4317209649158727413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_28
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215233627eba76690800000000000000
+      internalID: -7608924036152482542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_29
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 64
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97912838442fba920800000000000000
+      internalID: 3002759952650606969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_30
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 64
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b7be608ec3eb2e0800000000000000
+      internalID: -2108180608316638453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_31
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 59
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07cf461b3363dc5b0800000000000000
+      internalID: -5346557586971493264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_32
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 71
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53b7dd0217244900800000000000000
+      internalID: 667701603252810591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_33
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 64
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f591b6cf4b28e660800000000000000
+      internalID: 7415224408101459449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb88506489ef9a6a0800000000000000
+      internalID: -6437334262386161477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_35
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 24
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b77ebeec9ee14af0800000000000000
+      internalID: -413787332953606220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_36
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 41
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9403960e25f3bac0800000000000000
+      internalID: -3840456479189302114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_37
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 24
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c219f4a6a4ae1720800000000000000
+      internalID: 2818871452419822274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_38
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 24
+        width: 7
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be3a2d1c905e3c50800000000000000
+      internalID: 6646838731479858873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_39
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 24
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd13da91308449740800000000000000
+      internalID: 5157826651398943197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_40
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 19
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5296bdbffdc3c25e0800000000000000
+      internalID: -1933103207347951323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_41
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 24
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27c7d803ed355440800000000000000
+      internalID: 4923909812914734890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_42
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 24
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b2f77de8f43bdc0800000000000000
+      internalID: -3624465800183731349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_43
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 24
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aff615c61461d850800000000000000
+      internalID: 6400006594428862372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_44
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 24
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 455ce0330fa8cf340800000000000000
+      internalID: 4898943258925647188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_45
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 24
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee083b0671214280800000000000000
+      internalID: -9060924184414646560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_46
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 24
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a63bb53764e1e70800000000000000
+      internalID: 9087778559353907774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_47
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 18
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c03edac2e48d660800000000000000
+      internalID: 7410759140641016926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_48
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 24
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 948a5cc3084a53250800000000000000
+      internalID: 5923821755558111305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_49
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 24
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32f448a88fbf9cf0800000000000000
+      internalID: -243265261195169218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_50
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 24
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620715a78f9f4b4b0800000000000000
+      internalID: -5425436805475241946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_51
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 24
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb8e9fc05d8003e0800000000000000
+      internalID: -2089514848879735830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Scavenger_52
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 24
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c86ec6a58e35070800000000000000
+      internalID: 8094068430386662470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PlayStyle_Scavenger_0: -2467750671576696017
+      PlayStyle_Scavenger_1: -1254774848459409388
+      PlayStyle_Scavenger_10: -1927716399533324745
+      PlayStyle_Scavenger_11: -2997711082671846935
+      PlayStyle_Scavenger_12: -7830719964075011705
+      PlayStyle_Scavenger_13: 5021962096888623834
+      PlayStyle_Scavenger_14: 5456238912129109452
+      PlayStyle_Scavenger_15: 6404518450115167459
+      PlayStyle_Scavenger_16: 7104306580826422587
+      PlayStyle_Scavenger_17: -2179876571466070111
+      PlayStyle_Scavenger_18: 652668357703763696
+      PlayStyle_Scavenger_19: 4788125455485248160
+      PlayStyle_Scavenger_2: 1457754416682399380
+      PlayStyle_Scavenger_20: -8834021478998452876
+      PlayStyle_Scavenger_21: 7495620378511034527
+      PlayStyle_Scavenger_22: -7922182049350272683
+      PlayStyle_Scavenger_23: 1462839079350863731
+      PlayStyle_Scavenger_24: 2307338984220911332
+      PlayStyle_Scavenger_25: 3943843062320431599
+      PlayStyle_Scavenger_26: 3383967896517922940
+      PlayStyle_Scavenger_27: 4317209649158727413
+      PlayStyle_Scavenger_28: -7608924036152482542
+      PlayStyle_Scavenger_29: 3002759952650606969
+      PlayStyle_Scavenger_3: 7289349885440228495
+      PlayStyle_Scavenger_30: -2108180608316638453
+      PlayStyle_Scavenger_31: -5346557586971493264
+      PlayStyle_Scavenger_32: 667701603252810591
+      PlayStyle_Scavenger_33: 7415224408101459449
+      PlayStyle_Scavenger_34: -6437334262386161477
+      PlayStyle_Scavenger_35: -413787332953606220
+      PlayStyle_Scavenger_36: -3840456479189302114
+      PlayStyle_Scavenger_37: 2818871452419822274
+      PlayStyle_Scavenger_38: 6646838731479858873
+      PlayStyle_Scavenger_39: 5157826651398943197
+      PlayStyle_Scavenger_4: -5803732408867499970
+      PlayStyle_Scavenger_40: -1933103207347951323
+      PlayStyle_Scavenger_41: 4923909812914734890
+      PlayStyle_Scavenger_42: -3624465800183731349
+      PlayStyle_Scavenger_43: 6400006594428862372
+      PlayStyle_Scavenger_44: 4898943258925647188
+      PlayStyle_Scavenger_45: -9060924184414646560
+      PlayStyle_Scavenger_46: 9087778559353907774
+      PlayStyle_Scavenger_47: 7410759140641016926
+      PlayStyle_Scavenger_48: 5923821755558111305
+      PlayStyle_Scavenger_49: -243265261195169218
+      PlayStyle_Scavenger_5: -4217845246817637252
+      PlayStyle_Scavenger_50: -5425436805475241946
+      PlayStyle_Scavenger_51: -2089514848879735830
+      PlayStyle_Scavenger_52: 8094068430386662470
+      PlayStyle_Scavenger_6: -1292673780818553982
+      PlayStyle_Scavenger_7: 4933597803481194663
+      PlayStyle_Scavenger_8: 3485543636710651487
+      PlayStyle_Scavenger_9: -8133271137445884530
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

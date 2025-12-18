@@ -64,6 +64,19 @@ public class CombatDebugUI : MonoBehaviour
             GUILayout.Label($"Health: {_player.Health.CurrentHealth:F0}/{_player.Health.MaxHealth:F0} ({healthPercent:F0}%)", style);
         }
 
+        // 특수 자원 표시
+        if (PlayerStats.Instance != null)
+        {
+            float current = PlayerStats.Instance.CurrentSpecialResource;
+            float max = PlayerStats.Instance.MaxSpecialResource;
+            float percent = PlayerStats.Instance.SpecialResourcePercent * 100f;
+            bool canUseSpecial = current >= 50f;
+
+            var style = canUseSpecial ? _healthStyle : _labelStyle;
+            string canUseText = canUseSpecial ? " [READY]" : "";
+            GUILayout.Label($"Special: {current:F0}/{max:F0} ({percent:F0}%){canUseText}", style);
+        }
+
         GUILayout.Space(5);
 
         // 입력 정보

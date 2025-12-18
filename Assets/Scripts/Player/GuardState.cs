@@ -99,8 +99,9 @@ public class GuardState : PlayerState
     /// </summary>
     /// <param name="incomingDamage">받는 데미지</param>
     /// <param name="canBeGuarded">가드 가능한 공격인지</param>
+    /// <param name="attacker">공격자 (퍼펙트 가드 시 내구력 데미지용)</param>
     /// <returns>실제로 받을 데미지</returns>
-    public float ProcessGuardedDamage(float incomingDamage, bool canBeGuarded = true)
+    public float ProcessGuardedDamage(float incomingDamage, bool canBeGuarded = true, EnemyController attacker = null)
     {
         if (!canBeGuarded)
         {
@@ -113,7 +114,7 @@ public class GuardState : PlayerState
         {
             // 퍼펙트 가드 성공 - 데미지 무효
             Debug.Log("Perfect Guard! Damage negated.");
-            OnPerfectGuard();
+            OnPerfectGuard(attacker);
             return 0f;
         }
         else
@@ -128,11 +129,30 @@ public class GuardState : PlayerState
     /// <summary>
     /// 퍼펙트 가드 성공 시 호출
     /// </summary>
-    private void OnPerfectGuard()
+    /// <param name="attacker">공격자 (내구력 데미지를 줄 대상)</param>
+    private void OnPerfectGuard(EnemyController attacker)
     {
-        // TODO: 퍼펙트 가드 이펙트
-        // TODO: 적 내구력 데미지 증가
-        // TODO: 시간 슬로우 효과 (선택적)
+        // 패링 애니메이션 트리거
+        _controller.Animator.SetTrigger("ParryTrigger");
+
+        // 적 내구력에 데미지 (퍼펙트 가드 = DurabilityDamage × 25)
+        if (attacker != null && attacker.Durability != null)
+        {
+            // 강인도 데미지 = 25 × DurabilityDamage 스탯
+            float durabilityDamageMultiplier = PlayerStats.Instance != null
+                ? PlayerStats.Instance.GetStat(StatType.DurabilityDamage)
+                : 1f;
+
+            float durabilityDamage = 25f * durabilityDamageMultiplier;
+            attacker.Durability.TakeDurabilityDamage(durabilityDamage);
+            Debug.Log($"Perfect Guard dealt {durabilityDamage} durability damage to {attacker.gameObject.name}");
+        }
+
+        // 런 통계 기록
+        if (RunManager.Instance != null)
+        {
+            RunManager.Instance.RecordPerfectGuard();
+        }
 
         Debug.Log("Perfect Guard bonus activated!");
     }

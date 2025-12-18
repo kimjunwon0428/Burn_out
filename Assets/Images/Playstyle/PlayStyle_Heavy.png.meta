@@ -1,0 +1,1313 @@
+fileFormatVersion: 2
+guid: bcac47907720ece4eac3ea9c4e598b4a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 800765629187778673
+    second: PlayStyle_Heavy_0
+  - first:
+      213: 2785434414797003361
+    second: PlayStyle_Heavy_1
+  - first:
+      213: 7297248729246582060
+    second: PlayStyle_Heavy_2
+  - first:
+      213: -7938457178521023586
+    second: PlayStyle_Heavy_3
+  - first:
+      213: -8828861009039713377
+    second: PlayStyle_Heavy_4
+  - first:
+      213: -8333701888179101855
+    second: PlayStyle_Heavy_5
+  - first:
+      213: -572172776414538967
+    second: PlayStyle_Heavy_6
+  - first:
+      213: -6823517866580419113
+    second: PlayStyle_Heavy_7
+  - first:
+      213: 5692719456690523365
+    second: PlayStyle_Heavy_8
+  - first:
+      213: -16906014378176573
+    second: PlayStyle_Heavy_9
+  - first:
+      213: -5893938985856787039
+    second: PlayStyle_Heavy_10
+  - first:
+      213: -2433910339547574474
+    second: PlayStyle_Heavy_11
+  - first:
+      213: 5421593700504801577
+    second: PlayStyle_Heavy_12
+  - first:
+      213: 4679072713232414062
+    second: PlayStyle_Heavy_13
+  - first:
+      213: -2463898181854261796
+    second: PlayStyle_Heavy_14
+  - first:
+      213: -5134709417375262708
+    second: PlayStyle_Heavy_15
+  - first:
+      213: -5760958552796400838
+    second: PlayStyle_Heavy_16
+  - first:
+      213: -6932513421760709559
+    second: PlayStyle_Heavy_17
+  - first:
+      213: 3970407967363701219
+    second: PlayStyle_Heavy_18
+  - first:
+      213: 5249746493365931636
+    second: PlayStyle_Heavy_19
+  - first:
+      213: 2195226558848522351
+    second: PlayStyle_Heavy_20
+  - first:
+      213: 1442748674697777149
+    second: PlayStyle_Heavy_21
+  - first:
+      213: -3900861361027247747
+    second: PlayStyle_Heavy_22
+  - first:
+      213: 6820151682197749613
+    second: PlayStyle_Heavy_23
+  - first:
+      213: 3925636797289755281
+    second: PlayStyle_Heavy_24
+  - first:
+      213: -2789255711413426169
+    second: PlayStyle_Heavy_25
+  - first:
+      213: -8774922732109434963
+    second: PlayStyle_Heavy_26
+  - first:
+      213: -7066744347942996819
+    second: PlayStyle_Heavy_27
+  - first:
+      213: -3455769136162015237
+    second: PlayStyle_Heavy_28
+  - first:
+      213: 516634347927566874
+    second: PlayStyle_Heavy_29
+  - first:
+      213: -1936254970163217887
+    second: PlayStyle_Heavy_30
+  - first:
+      213: 7144763399450032061
+    second: PlayStyle_Heavy_31
+  - first:
+      213: -3605211258434146986
+    second: PlayStyle_Heavy_32
+  - first:
+      213: 3932007939314144649
+    second: PlayStyle_Heavy_33
+  - first:
+      213: 7932095269296744192
+    second: PlayStyle_Heavy_34
+  - first:
+      213: -7957310584693519412
+    second: PlayStyle_Heavy_35
+  - first:
+      213: -4868248110413640698
+    second: PlayStyle_Heavy_36
+  - first:
+      213: -3092364802372144899
+    second: PlayStyle_Heavy_37
+  - first:
+      213: 8899745663362559000
+    second: PlayStyle_Heavy_38
+  - first:
+      213: 7651989584943943613
+    second: PlayStyle_Heavy_39
+  - first:
+      213: 2213565386737099258
+    second: PlayStyle_Heavy_40
+  - first:
+      213: 8332712161190737188
+    second: PlayStyle_Heavy_41
+  - first:
+      213: 1686270642080331968
+    second: PlayStyle_Heavy_42
+  - first:
+      213: 724639042027201381
+    second: PlayStyle_Heavy_43
+  - first:
+      213: -3904985588578100907
+    second: PlayStyle_Heavy_44
+  - first:
+      213: 8364565574819615393
+    second: PlayStyle_Heavy_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_0
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 405
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 178641cd814ec1b00800000000000000
+      internalID: 800765629187778673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 409
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a9f17a7d9d7a620800000000000000
+      internalID: 2785434414797003361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 410
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25c9688e09054560800000000000000
+      internalID: 7297248729246582060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_3
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 409
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9bca91814fe4d190800000000000000
+      internalID: -7938457178521023586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_4
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 401
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b14e880b5997580800000000000000
+      internalID: -8828861009039713377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f151b594eb85c80800000000000000
+      internalID: -8333701888179101855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 64
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92399af24eb3f08f0800000000000000
+      internalID: -572172776414538967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_7
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 86
+        width: 270
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd51f327aefd41a0800000000000000
+      internalID: -6823517866580419113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_8
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 64
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec4efd3f2a900f40800000000000000
+      internalID: 5692719456690523365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_9
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 64
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfcb6ac110f3cff0800000000000000
+      internalID: -16906014378176573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_10
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 64
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad1e2448b5843ea0800000000000000
+      internalID: -5893938985856787039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 64
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63fcd1c0173093ed0800000000000000
+      internalID: -2433910339547574474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 64
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921951beebe5d3b40800000000000000
+      internalID: 5421593700504801577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_13
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 64
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65f07687d76fe040800000000000000
+      internalID: 4679072713232414062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_14
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 58
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd88db68a97ecdd0800000000000000
+      internalID: -2463898181854261796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_15
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 58
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c089e706df8ddb8b0800000000000000
+      internalID: -5134709417375262708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_16
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 64
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3372d618b6fc00b0800000000000000
+      internalID: -5760958552796400838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_17
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 64
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c335fd5c3cacf90800000000000000
+      internalID: -6932513421760709559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_18
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 64
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9181c9209b91730800000000000000
+      internalID: 3970407967363701219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_19
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 64
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ecde11f98dad840800000000000000
+      internalID: 5249746493365931636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_20
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 64
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f685ba9ace2077e10800000000000000
+      internalID: 2195226558848522351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_21
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 64
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dffc68f864ca50410800000000000000
+      internalID: 1442748674697777149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_22
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 64
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d719ce1824b5dd9c0800000000000000
+      internalID: -3900861361027247747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_23
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 64
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ffdabf1db06ae50800000000000000
+      internalID: 6820151682197749613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_24
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 64
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19278a34ed9aa7630800000000000000
+      internalID: 3925636797289755281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_25
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 64
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708297565b29a49d0800000000000000
+      internalID: -2789255711413426169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_26
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 64
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dafed154446393680800000000000000
+      internalID: -8774922732109434963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da4bb5ee471eded90800000000000000
+      internalID: -7066744347942996819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_28
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 24
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7fd45b744aa00d0800000000000000
+      internalID: -3455769136162015237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_29
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 24
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1afcf2c3347b2700800000000000000
+      internalID: 516634347927566874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_30
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 24
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a36d40d5a0125e0800000000000000
+      internalID: -1936254970163217887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_31
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 24
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db77e6c057c472360800000000000000
+      internalID: 7144763399450032061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_32
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 19
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d2bc03677b7fdc0800000000000000
+      internalID: -3605211258434146986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_33
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 24
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985d5dc536c419630800000000000000
+      internalID: 3932007939314144649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_34
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 24
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0072df21f96741e60800000000000000
+      internalID: 7932095269296744192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_35
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 24
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb03efce24f19190800000000000000
+      internalID: -7957310584693519412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_36
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 24
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c045cf222807cb0800000000000000
+      internalID: -4868248110413640698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_37
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 24
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0ffa6a896b515d0800000000000000
+      internalID: -3092364802372144899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_38
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 24
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c6c08278f328b70800000000000000
+      internalID: 8899745663362559000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_39
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 24
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf829b4cf3513a60800000000000000
+      internalID: 7651989584943943613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_40
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af1a093cdf928be10800000000000000
+      internalID: 2213565386737099258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_41
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 24
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425f95fdf8db3a370800000000000000
+      internalID: 8332712161190737188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_42
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 24
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c83e58f636d66710800000000000000
+      internalID: 1686270642080331968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_43
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 24
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56329629e5f6e0a00800000000000000
+      internalID: 724639042027201381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_44
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 31
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55958c3fb44bec9c0800000000000000
+      internalID: -3904985588578100907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Heavy_45
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 24
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2959ba218e41470800000000000000
+      internalID: 8364565574819615393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PlayStyle_Heavy_0: 800765629187778673
+      PlayStyle_Heavy_1: 2785434414797003361
+      PlayStyle_Heavy_10: -5893938985856787039
+      PlayStyle_Heavy_11: -2433910339547574474
+      PlayStyle_Heavy_12: 5421593700504801577
+      PlayStyle_Heavy_13: 4679072713232414062
+      PlayStyle_Heavy_14: -2463898181854261796
+      PlayStyle_Heavy_15: -5134709417375262708
+      PlayStyle_Heavy_16: -5760958552796400838
+      PlayStyle_Heavy_17: -6932513421760709559
+      PlayStyle_Heavy_18: 3970407967363701219
+      PlayStyle_Heavy_19: 5249746493365931636
+      PlayStyle_Heavy_2: 7297248729246582060
+      PlayStyle_Heavy_20: 2195226558848522351
+      PlayStyle_Heavy_21: 1442748674697777149
+      PlayStyle_Heavy_22: -3900861361027247747
+      PlayStyle_Heavy_23: 6820151682197749613
+      PlayStyle_Heavy_24: 3925636797289755281
+      PlayStyle_Heavy_25: -2789255711413426169
+      PlayStyle_Heavy_26: -8774922732109434963
+      PlayStyle_Heavy_27: -7066744347942996819
+      PlayStyle_Heavy_28: -3455769136162015237
+      PlayStyle_Heavy_29: 516634347927566874
+      PlayStyle_Heavy_3: -7938457178521023586
+      PlayStyle_Heavy_30: -1936254970163217887
+      PlayStyle_Heavy_31: 7144763399450032061
+      PlayStyle_Heavy_32: -3605211258434146986
+      PlayStyle_Heavy_33: 3932007939314144649
+      PlayStyle_Heavy_34: 7932095269296744192
+      PlayStyle_Heavy_35: -7957310584693519412
+      PlayStyle_Heavy_36: -4868248110413640698
+      PlayStyle_Heavy_37: -3092364802372144899
+      PlayStyle_Heavy_38: 8899745663362559000
+      PlayStyle_Heavy_39: 7651989584943943613
+      PlayStyle_Heavy_4: -8828861009039713377
+      PlayStyle_Heavy_40: 2213565386737099258
+      PlayStyle_Heavy_41: 8332712161190737188
+      PlayStyle_Heavy_42: 1686270642080331968
+      PlayStyle_Heavy_43: 724639042027201381
+      PlayStyle_Heavy_44: -3904985588578100907
+      PlayStyle_Heavy_45: 8364565574819615393
+      PlayStyle_Heavy_5: -8333701888179101855
+      PlayStyle_Heavy_6: -572172776414538967
+      PlayStyle_Heavy_7: -6823517866580419113
+      PlayStyle_Heavy_8: 5692719456690523365
+      PlayStyle_Heavy_9: -16906014378176573
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

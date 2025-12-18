@@ -9,8 +9,8 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     [Header("감지 설정")]
-    [SerializeField] private float _detectionRange = 8f;   // 플레이어 감지 범위
-    [SerializeField] private float _attackRange = 1.5f;    // 공격 범위
+    [SerializeField] private float _detectionRange = 10f;  // 플레이어 감지 범위
+    [SerializeField] private float _attackRange = 4f;      // 공격 범위 (확대)
 
     [Header("이동 설정")]
     [SerializeField] private float _moveSpeed = 3f;
@@ -20,8 +20,8 @@ public class EnemyController : MonoBehaviour
     [SerializeField] private float _attackCooldown = 2f;
 
     [Header("거리 유지 설정")]
-    [SerializeField] private float _preferredAttackDistance = 1.2f;  // 선호 공격 거리
-    [SerializeField] private float _distanceTolerance = 0.3f;        // 허용 오차 (데드존)
+    [SerializeField] private float _preferredAttackDistance = 3.5f;  // 선호 공격 거리 (확대)
+    [SerializeField] private float _distanceTolerance = 0.5f;        // 허용 오차 (데드존)
 
     // 컴포넌트 참조
     private Rigidbody2D _rb;
@@ -54,7 +54,19 @@ public class EnemyController : MonoBehaviour
     private int _facingDirection = -1;  // -1 = 왼쪽 (플레이어를 바라봄)
     public int FacingDirection => _facingDirection;
 
-    private void Awake()
+    // 처형 중 고정 상태
+    private bool _isFrozenForExecution = false;
+    public bool IsFrozenForExecution => _isFrozenForExecution;
+
+    /// <summary>
+    /// 타겟 설정 (자식 클래스용)
+    /// </summary>
+    protected void SetTarget(Transform target)
+    {
+        _target = target;
+    }
+
+    protected virtual void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
         _health = GetComponent<Health>();
@@ -68,9 +80,14 @@ public class EnemyController : MonoBehaviour
         _health.OnDamageTaken += OnDamageTaken;
         _durability.OnGroggyStart += OnGroggyStart;
         _durability.OnGroggyEnd += OnGroggyEnd;
+
+        // Enemy 레이어 설정 (Player와 충돌 방지)
+        int enemyLayer = LayerMask.NameToLayer("Enemy");
+        gameObject.layer = enemyLayer;
+        Debug.Log($"[{gameObject.name}] Layer set to: {enemyLayer} ({LayerMask.LayerToName(gameObject.layer)})");
     }
 
-    private void Start()
+    protected virtual void Start()
     {
         // 플레이어 찾기
         var player = FindFirstObjectByType<PlayerController>();
@@ -83,14 +100,20 @@ public class EnemyController : MonoBehaviour
         _stateMachine.Initialize(new EnemyIdleState(this, _stateMachine));
     }
 
-    private void Update()
+    protected virtual void Update()
     {
+        // 처형 중에는 상태 업데이트 중단
+        if (_isFrozenForExecution) return;
+
         _stateMachine.Update();
         UpdateFacing();
     }
 
-    private void FixedUpdate()
+    protected virtual void FixedUpdate()
     {
+        // 처형 중에는 물리 업데이트 중단
+        if (_isFrozenForExecution) return;
+
         _stateMachine.FixedUpdate();
     }
 
@@ -105,7 +128,7 @@ public class EnemyController : MonoBehaviour
     /// <summary>
     /// 플레이어 방향으로 스프라이트 회전
     /// </summary>
-    private void UpdateFacing()
+    protected void UpdateFacing()
     {
         if (_target == null) return;
 
@@ -157,38 +180,50 @@ public class EnemyController : MonoBehaviour
     {
         _lastAttackTime = Time.time;
 
-        // 플레이어에게 데미지
+        // 플레이어에게 데미지 (공격자 정보 전달)
         if (_target != null)
         {
             var playerController = _target.GetComponent<PlayerController>();
             if (playerController != null)
             {
-                playerController.TakeDamage(_attackDamage);
+                playerController.TakeDamage(_attackDamage, true, this);
                 Debug.Log($"{gameObject.name} attacked player for {_attackDamage} damage");
             }
         }
     }
 
     /// <summary>
-    /// 타겟 방향으로 이동
+    /// 타겟 방향으로 이동 (X축만)
     /// </summary>
     public void MoveTowardsTarget()
     {
-        if (_target == null) return;
+        if (_target == null)
+        {
+            Debug.LogWarning($"[{gameObject.name}] MoveTowardsTarget: Target is null!");
+            return;
+        }
 
-        Vector2 direction = (_target.position - transform.position).normalized;
-        _rb.linearVelocity = new Vector2(direction.x * _moveSpeed, _rb.linearVelocity.y);
+        // X축 방향만 계산 (2D 횡스크롤)
+        float directionX = _target.position.x - transform.position.x;
+        float normalizedX = directionX > 0 ? 1f : -1f;
+
+        // X축 이동, Y축은 현재 velocity 유지 (중력 등)
+        _rb.linearVelocity = new Vector2(normalizedX * _moveSpeed, _rb.linearVelocity.y);
     }
 
     /// <summary>
-    /// 타겟으로부터 멀어지는 방향으로 이동 (후퇴)
+    /// 타겟으로부터 멀어지는 방향으로 이동 (후퇴, X축만)
     /// </summary>
     public void MoveAwayFromTarget()
     {
         if (_target == null) return;
 
-        Vector2 direction = (transform.position - _target.position).normalized;
-        _rb.linearVelocity = new Vector2(direction.x * _moveSpeed, _rb.linearVelocity.y);
+        // X축 방향만 계산 (2D 횡스크롤)
+        float directionX = transform.position.x - _target.position.x;
+        float normalizedX = directionX > 0 ? 1f : -1f;
+
+        // X축 이동, Y축은 현재 velocity 유지
+        _rb.linearVelocity = new Vector2(normalizedX * _moveSpeed, _rb.linearVelocity.y);
     }
 
     /// <summary>
@@ -210,6 +245,25 @@ public class EnemyController : MonoBehaviour
     }
 
     /// <summary>
+    /// 처형을 위해 적 고정 (이동/행동 불가)
+    /// </summary>
+    public void FreezeForExecution()
+    {
+        _isFrozenForExecution = true;
+        StopMovement();
+        Debug.Log($"{gameObject.name} frozen for execution");
+    }
+
+    /// <summary>
+    /// 처형 고정 해제
+    /// </summary>
+    public void UnfreezeFromExecution()
+    {
+        _isFrozenForExecution = false;
+        Debug.Log($"{gameObject.name} unfrozen from execution");
+    }
+
+    /// <summary>
     /// 피격 시
     /// </summary>
     private void OnDamageTaken(float damage)
@@ -220,7 +274,7 @@ public class EnemyController : MonoBehaviour
     /// <summary>
     /// 그로기 시작
     /// </summary>
-    private void OnGroggyStart()
+    protected virtual void OnGroggyStart()
     {
         _stateMachine.ChangeState(new EnemyGroggyState(this, _stateMachine));
     }
@@ -228,7 +282,7 @@ public class EnemyController : MonoBehaviour
     /// <summary>
     /// 그로기 종료
     /// </summary>
-    private void OnGroggyEnd()
+    protected virtual void OnGroggyEnd()
     {
         // 그로기 종료 후 Idle로 복귀
         _stateMachine.ChangeState(new EnemyIdleState(this, _stateMachine));
@@ -237,7 +291,7 @@ public class EnemyController : MonoBehaviour
     /// <summary>
     /// 사망
     /// </summary>
-    private void OnDeath()
+    protected virtual void OnDeath()
     {
         Debug.Log($"{gameObject.name} died!");
         _animator?.SetBool("IsDead", true);

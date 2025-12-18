@@ -150,8 +150,16 @@ public class Durability : MonoBehaviour
         Debug.Log($"{gameObject.name}: EXECUTED!");
         OnExecuted?.Invoke();
 
-        // 그로기 즉시 종료
+        // 그로기 상태였으면 OnGroggyEnd 이벤트 발생
+        bool wasGroggy = _isGroggy;
         _isGroggy = false;
+        _currentDurability = _maxDurability;
+
+        if (wasGroggy)
+        {
+            OnGroggyEnd?.Invoke();
+        }
+        OnDurabilityChanged?.Invoke(_currentDurability, _maxDurability);
     }
 
     /// <summary>

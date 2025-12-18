@@ -1,5 +1,6 @@
 using UnityEngine;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 
 /// <summary>
@@ -31,9 +32,16 @@ public class PlayerStats : MonoBehaviour
     // 이벤트
     public event Action<StatType, float> OnStatChanged;
     public event Action OnStatsRecalculated;
+    public event Action<float, float> OnSpecialResourceChanged;
+
+    // 특수 자원 현재값
+    private float _currentSpecialResource = 0f;
 
     // 프로퍼티
     public PlaystyleType CurrentPlaystyle => _currentPlaystyle;
+    public float CurrentSpecialResource => _currentSpecialResource;
+    public float MaxSpecialResource => GetStat(StatType.SpecialResourceMax);
+    public float SpecialResourcePercent => MaxSpecialResource > 0 ? _currentSpecialResource / MaxSpecialResource : 0f;
 
     private void Awake()
     {
@@ -107,7 +115,7 @@ public class PlayerStats : MonoBehaviour
             StatModifier.Percent(StatType.Defense, -0.3f),
             StatModifier.Percent(StatType.DodgeDistance, 0.5f),
             StatModifier.Percent(StatType.PerfectDodgeWindow, 0.3f),
-            StatModifier.Percent(StatType.SpecialResourceGain, 0.5f),
+            StatModifier.Percent(StatType.SpecialResourceGain, 1.0f),  // +100% 자원 획득
             StatModifier.Percent(StatType.SpecialAttackPower, 1.0f)
         };
 
@@ -275,6 +283,27 @@ public class PlayerStats : MonoBehaviour
     }
 
     /// <summary>
+    /// 지속 시간이 있는 임시 수정자 추가 (버프 등)
+    /// </summary>
+    /// <param name="modifier">스탯 수정자</param>
+    /// <param name="duration">지속 시간 (초)</param>
+    public void AddTemporaryModifier(StatModifier modifier, float duration)
+    {
+        AddTemporaryModifier(modifier);
+        StartCoroutine(RemoveModifierAfterDuration(modifier, duration));
+    }
+
+    /// <summary>
+    /// 지정 시간 후 수정자 자동 제거
+    /// </summary>
+    private IEnumerator RemoveModifierAfterDuration(StatModifier modifier, float duration)
+    {
+        yield return new WaitForSeconds(duration);
+        RemoveTemporaryModifier(modifier);
+        Debug.Log($"Temporary modifier expired: {modifier}");
+    }
+
+    /// <summary>
     /// 임시 수정자 제거
     /// </summary>
     public void RemoveTemporaryModifier(StatModifier modifier)
@@ -312,5 +341,43 @@ public class PlayerStats : MonoBehaviour
             float value = GetStat(statType);
             Debug.Log($"  {statType}: {value:F2}");
         }
+    }
+
+    /// <summary>
+    /// 특수 자원 추가 (퍼펙트 회피 등에서 사용)
+    /// </summary>
+    public void AddSpecialResource(float amount)
+    {
+        float maxResource = GetStat(StatType.SpecialResourceMax);
+        float oldValue = _currentSpecialResource;
+        _currentSpecialResource = Mathf.Clamp(_currentSpecialResource + amount, 0, maxResource);
+        if (oldValue != _currentSpecialResource)
+        {
+            OnSpecialResourceChanged?.Invoke(_currentSpecialResource, maxResource);
+        }
+    }
+
+    /// <summary>
+    /// 특수 자원 소모 시도 (특수 공격에서 사용)
+    /// </summary>
+    /// <returns>소모 성공 여부</returns>
+    public bool TryConsumeSpecialResource(float amount)
+    {
+        if (_currentSpecialResource >= amount)
+        {
+            _currentSpecialResource -= amount;
+            OnSpecialResourceChanged?.Invoke(_currentSpecialResource, MaxSpecialResource);
+            return true;
+        }
+        return false;
+    }
+
+    /// <summary>
+    /// 특수 자원 초기화 (런 시작 시)
+    /// </summary>
+    public void ResetSpecialResource()
+    {
+        _currentSpecialResource = 0f;
+        OnSpecialResourceChanged?.Invoke(0f, MaxSpecialResource);
     }
 }
