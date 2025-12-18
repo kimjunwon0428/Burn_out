@@ -161,7 +161,17 @@ public class DodgeState : PlayerState
     {
         Debug.Log("Perfect Dodge! Bonus activated!");
 
-        // 1. 다음 공격 강화 버프 (+50% 공격력, 3초 지속)
+        // 1. 특수 자원 충전 (25 × SpecialResourceGain)
+        if (PlayerStats.Instance != null)
+        {
+            float baseGain = 25f;
+            float gainMultiplier = PlayerStats.Instance.GetStat(StatType.SpecialResourceGain);
+            float totalGain = baseGain * gainMultiplier;
+            PlayerStats.Instance.AddSpecialResource(totalGain);
+            Debug.Log($"Perfect Dodge: +{totalGain} Special Resource");
+        }
+
+        // 2. 다음 공격 강화 버프 (+50% 공격력, 3초 지속)
         if (PlayerStats.Instance != null)
         {
             var attackBuff = StatModifier.Percent(StatType.AttackPower, 0.5f);
@@ -169,13 +179,13 @@ public class DodgeState : PlayerState
             Debug.Log("Perfect Dodge buff: +50% Attack Power for 3 seconds");
         }
 
-        // 2. 런 통계 기록
+        // 3. 런 통계 기록
         if (RunManager.Instance != null)
         {
             RunManager.Instance.RecordPerfectDodge();
         }
 
-        // 3. 퍼펙트 닷지 이펙트 (추후 VFX 연동)
+        // 4. 퍼펙트 닷지 이펙트 (추후 VFX 연동)
         // VFXManager.Instance?.PlayPerfectDodgeEffect(_controller.transform.position);
     }
 }

@@ -135,17 +135,17 @@ public class GuardState : PlayerState
         // 패링 애니메이션 트리거
         _controller.Animator.SetTrigger("ParryTrigger");
 
-        // 적 내구력에 추가 데미지 (퍼펙트 가드 보너스)
+        // 적 내구력에 데미지 (퍼펙트 가드 = DurabilityDamage × 25)
         if (attacker != null && attacker.Durability != null)
         {
-            // 기본 내구력 데미지 (스탯 기반)
-            float baseDurabilityDamage = PlayerStats.Instance != null
+            // 강인도 데미지 = 25 × DurabilityDamage 스탯
+            float durabilityDamageMultiplier = PlayerStats.Instance != null
                 ? PlayerStats.Instance.GetStat(StatType.DurabilityDamage)
-                : 10f;
+                : 1f;
 
-            // TakePerfectGuardDamage는 2배 데미지를 적용함
-            attacker.Durability.TakePerfectGuardDamage(baseDurabilityDamage);
-            Debug.Log($"Perfect Guard dealt {baseDurabilityDamage * 2} durability damage to {attacker.gameObject.name}");
+            float durabilityDamage = 25f * durabilityDamageMultiplier;
+            attacker.Durability.TakeDurabilityDamage(durabilityDamage);
+            Debug.Log($"Perfect Guard dealt {durabilityDamage} durability damage to {attacker.gameObject.name}");
         }
 
         // 런 통계 기록

@@ -168,7 +168,6 @@ public class AttackState : PlayerState
         Debug.Log($"[Player Attack] Found {hits.Length} enemies in range");
 
         float damage = AttackDamage * DamageMultiplier;
-        float durabilityDamage = damage * 0.5f * DurabilityDamageMultiplier * ExtraDurabilityMultiplier;
 
         foreach (var hit in hits)
         {
@@ -181,12 +180,8 @@ public class AttackState : PlayerState
                 Debug.Log($"{attackTypeName} hit: {hit.name} for {damage} damage");
             }
 
-            // Durability 컴포넌트가 있으면 내구력 데미지
-            var durability = hit.GetComponent<Durability>();
-            if (durability != null)
-            {
-                durability.TakeDurabilityDamage(durabilityDamage);
-            }
+            // 일반 공격은 강인도 데미지를 주지 않음
+            // (퍼펙트 가드와 특수 공격만 강인도 감소)
         }
 
         if (hits.Length == 0)

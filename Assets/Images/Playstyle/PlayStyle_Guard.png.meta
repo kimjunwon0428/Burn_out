@@ -1,0 +1,1131 @@
+fileFormatVersion: 2
+guid: f187fc2d7559b1847a185bef73a5e783
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8289582513060311536
+    second: PlayStyle_Guard_0
+  - first:
+      213: 6697877046226927288
+    second: PlayStyle_Guard_1
+  - first:
+      213: 3295067634493647733
+    second: PlayStyle_Guard_2
+  - first:
+      213: 2448196356420664190
+    second: PlayStyle_Guard_3
+  - first:
+      213: 8052234556652665425
+    second: PlayStyle_Guard_4
+  - first:
+      213: -7416757062028975183
+    second: PlayStyle_Guard_5
+  - first:
+      213: 6968774495194360311
+    second: PlayStyle_Guard_6
+  - first:
+      213: 1392737630699979175
+    second: PlayStyle_Guard_7
+  - first:
+      213: -7581922604706167860
+    second: PlayStyle_Guard_8
+  - first:
+      213: -7063199761701144617
+    second: PlayStyle_Guard_9
+  - first:
+      213: -2465943476397100156
+    second: PlayStyle_Guard_10
+  - first:
+      213: -6703227261105635996
+    second: PlayStyle_Guard_11
+  - first:
+      213: -755826261455823750
+    second: PlayStyle_Guard_12
+  - first:
+      213: 6428132398607711934
+    second: PlayStyle_Guard_13
+  - first:
+      213: 6314929986421688853
+    second: PlayStyle_Guard_14
+  - first:
+      213: -1907681302610647864
+    second: PlayStyle_Guard_15
+  - first:
+      213: 3986071059727155566
+    second: PlayStyle_Guard_16
+  - first:
+      213: -744102213108150789
+    second: PlayStyle_Guard_17
+  - first:
+      213: -5172878341226835921
+    second: PlayStyle_Guard_18
+  - first:
+      213: 8828424944284385970
+    second: PlayStyle_Guard_19
+  - first:
+      213: -6513436678762177035
+    second: PlayStyle_Guard_20
+  - first:
+      213: -5201768749109956891
+    second: PlayStyle_Guard_21
+  - first:
+      213: -2144992138382421654
+    second: PlayStyle_Guard_22
+  - first:
+      213: 8049583847558191387
+    second: PlayStyle_Guard_23
+  - first:
+      213: -3979347910918265522
+    second: PlayStyle_Guard_24
+  - first:
+      213: 7863506202959793888
+    second: PlayStyle_Guard_25
+  - first:
+      213: 4999412462745489337
+    second: PlayStyle_Guard_26
+  - first:
+      213: -534419729071783342
+    second: PlayStyle_Guard_27
+  - first:
+      213: -5224174639999240056
+    second: PlayStyle_Guard_28
+  - first:
+      213: 727182368821802938
+    second: PlayStyle_Guard_29
+  - first:
+      213: 484542547899083966
+    second: PlayStyle_Guard_30
+  - first:
+      213: 5852084876679359915
+    second: PlayStyle_Guard_31
+  - first:
+      213: 9182606267662424713
+    second: PlayStyle_Guard_32
+  - first:
+      213: 3723798147299445831
+    second: PlayStyle_Guard_33
+  - first:
+      213: 8281780411670520836
+    second: PlayStyle_Guard_34
+  - first:
+      213: 5901282503541584155
+    second: PlayStyle_Guard_35
+  - first:
+      213: 2635506941665451511
+    second: PlayStyle_Guard_36
+  - first:
+      213: 6851626204567860154
+    second: PlayStyle_Guard_37
+  - first:
+      213: 7117151135845233378
+    second: PlayStyle_Guard_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlayStyle_Guard_0
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 365
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e00ccdf9c75fc80800000000000000
+      internalID: -8289582513060311536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_1
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 369
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be3999cfa3a3fc50800000000000000
+      internalID: 6697877046226927288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_2
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 370
+        width: 21
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b61e83e8e6abd20800000000000000
+      internalID: 3295067634493647733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 373
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7bfbd47d9db9f120800000000000000
+      internalID: 2448196356420664190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_4
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 367
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a386daaa84fbf60800000000000000
+      internalID: 8052234556652665425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3a46c6fb2621990800000000000000
+      internalID: -7416757062028975183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_6
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 64
+        width: 7
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9acd13b7f06b060800000000000000
+      internalID: 6968774495194360311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_7
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 64
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1013ffe7ff35310800000000000000
+      internalID: 1392737630699979175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_8
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 64
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc30cffcf8997c690800000000000000
+      internalID: -7581922604706167860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_9
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 64
+        width: 268
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7fd2a3d397afd90800000000000000
+      internalID: -7063199761701144617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_10
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 64
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483b82d297537cdd0800000000000000
+      internalID: -2465943476397100156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 64
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d751d325a59f2a0800000000000000
+      internalID: -6703227261105635996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c930e0504c285f0800000000000000
+      internalID: -755826261455823750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_13
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 24
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe313cdb50553950800000000000000
+      internalID: 6428132398607711934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_14
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 24
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a802e5d5323a750800000000000000
+      internalID: 6314929986421688853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_15
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 24
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4ec3d66fd8685e0800000000000000
+      internalID: -1907681302610647864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_16
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 24
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61808c728e515730800000000000000
+      internalID: 3986071059727155566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_17
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 24
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd4b17cafa6ca5f0800000000000000
+      internalID: -744102213108150789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_18
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 18
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20dcd44e8e3638b0800000000000000
+      internalID: -5172878341226835921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_19
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 24
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2c44a36bdd48a70800000000000000
+      internalID: 8828424944284385970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_20
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 24
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd516fa9df9b95a0800000000000000
+      internalID: -6513436678762177035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_21
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 24
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eea29102ea9fc7b0800000000000000
+      internalID: -5201768749109956891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_22
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 24
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61d5b9c3057b32e0800000000000000
+      internalID: -2144992138382421654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_23
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 24
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b199d6f5cddd5bf60800000000000000
+      internalID: 8049583847558191387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_24
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 24
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e452604982486c8c0800000000000000
+      internalID: -3979347910918265522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_25
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eecf7c9a39c02d60800000000000000
+      internalID: 7863506202959793888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_26
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 24
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf0b97952b716540800000000000000
+      internalID: 4999412462745489337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_27
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 24
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25247bf761c5598f0800000000000000
+      internalID: -534419729071783342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_28
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 41
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888bd3208d00087b0800000000000000
+      internalID: -5224174639999240056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_29
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 24
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7fc8cf288771a00800000000000000
+      internalID: 727182368821802938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_30
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 24
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc661e41e079b600800000000000000
+      internalID: 484542547899083966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_31
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 18
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bada8ed8038c63150800000000000000
+      internalID: 5852084876679359915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_32
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 24
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a5b48bfbb2f6f70800000000000000
+      internalID: 9182606267662424713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_33
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 24
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c8a097fa69da330800000000000000
+      internalID: 3723798147299445831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_34
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 24
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404e869d76bcee270800000000000000
+      internalID: 8281780411670520836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_35
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11f2deab2195e150800000000000000
+      internalID: 5901282503541584155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_36
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 24
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd9b059993339420800000000000000
+      internalID: 2635506941665451511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_37
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 24
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab376094bbdd51f50800000000000000
+      internalID: 6851626204567860154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStyle_Guard_38
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 24
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2b2d0ff3335c260800000000000000
+      internalID: 7117151135845233378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PlayStyle_Guard_0: -8289582513060311536
+      PlayStyle_Guard_1: 6697877046226927288
+      PlayStyle_Guard_10: -2465943476397100156
+      PlayStyle_Guard_11: -6703227261105635996
+      PlayStyle_Guard_12: -755826261455823750
+      PlayStyle_Guard_13: 6428132398607711934
+      PlayStyle_Guard_14: 6314929986421688853
+      PlayStyle_Guard_15: -1907681302610647864
+      PlayStyle_Guard_16: 3986071059727155566
+      PlayStyle_Guard_17: -744102213108150789
+      PlayStyle_Guard_18: -5172878341226835921
+      PlayStyle_Guard_19: 8828424944284385970
+      PlayStyle_Guard_2: 3295067634493647733
+      PlayStyle_Guard_20: -6513436678762177035
+      PlayStyle_Guard_21: -5201768749109956891
+      PlayStyle_Guard_22: -2144992138382421654
+      PlayStyle_Guard_23: 8049583847558191387
+      PlayStyle_Guard_24: -3979347910918265522
+      PlayStyle_Guard_25: 7863506202959793888
+      PlayStyle_Guard_26: 4999412462745489337
+      PlayStyle_Guard_27: -534419729071783342
+      PlayStyle_Guard_28: -5224174639999240056
+      PlayStyle_Guard_29: 727182368821802938
+      PlayStyle_Guard_3: 2448196356420664190
+      PlayStyle_Guard_30: 484542547899083966
+      PlayStyle_Guard_31: 5852084876679359915
+      PlayStyle_Guard_32: 9182606267662424713
+      PlayStyle_Guard_33: 3723798147299445831
+      PlayStyle_Guard_34: 8281780411670520836
+      PlayStyle_Guard_35: 5901282503541584155
+      PlayStyle_Guard_36: 2635506941665451511
+      PlayStyle_Guard_37: 6851626204567860154
+      PlayStyle_Guard_38: 7117151135845233378
+      PlayStyle_Guard_4: 8052234556652665425
+      PlayStyle_Guard_5: -7416757062028975183
+      PlayStyle_Guard_6: 6968774495194360311
+      PlayStyle_Guard_7: 1392737630699979175
+      PlayStyle_Guard_8: -7581922604706167860
+      PlayStyle_Guard_9: -7063199761701144617
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

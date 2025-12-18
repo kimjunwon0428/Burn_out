@@ -193,6 +193,16 @@ public class PlayerController : MonoBehaviour
             }
         }
 
+        // 특수 공격 상태에서 무적 판정
+        if (currentState is SpecialAttackState specialAttackState)
+        {
+            if (specialAttackState.IsInvincible)
+            {
+                Debug.Log("Attack blocked - Special Attack invincibility!");
+                return;  // 무적으로 데미지 무효화
+            }
+        }
+
         // 가드 상태 처리
         bool isGuarding = currentState is GuardState;
         bool isPerfectGuard = false;

@@ -402,6 +402,7 @@ GameObject:
   - component: {fileID: 100000022}
   - component: {fileID: 100000023}
   - component: {fileID: 100000024}
+  - component: {fileID: 100000025}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -448,6 +449,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bad8ce66b903fb948a9695b6d0971185, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputManager
+--- !u!114 &100000025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4a1bc0b1e61d3844b079c858e00db83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ExecutionSystem
+  _executionRange: 2
+  _executionDuration: 1
+  _executionDamage: 50
+  _enemyLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &100000031
 GameObject:
   m_ObjectHideFlags: 0
@@ -723,7 +742,7 @@ MonoBehaviour:
   _recoveryDelay: 5
   _recoveryRate: 5
   _autoRecover: 0
-  _groggyDuration: 8
+  _groggyDuration: 3
 --- !u!114 &100000070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -736,11 +755,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7968748a5d4dc04cb29656755a2c9cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _recoverDelay: 1
-  _health: {fileID: 0}
-  _durability: {fileID: 0}
-  <LastDamageTaken>k__BackingField: 0
-  <LastDurabilityDamage>k__BackingField: 0
 --- !u!114 &100000071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -753,395 +767,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8970133ca0a7f1d4aaed3bf1714c73f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _showUI: 1
-  _fontSize: 18
-  _textColor:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  _damageColor:
-    r: 1
-    g: 0.2
-    b: 0.2
-    a: 1
-  _durabilityColor:
-    r: 1
-    g: 0.9
-    b: 0.2
-    a: 1
-  _statusColor:
-    r: 0
-    g: 1
-    b: 1
-    a: 1
-  _dummy: {fileID: 0}
-  _labelStyle:
-    m_Name: 
-    m_Normal: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_Hover: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_Active: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_Focused: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_OnNormal: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_OnHover: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_OnActive: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_OnFocused: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_Border:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Margin:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Padding:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Overflow:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Font: {fileID: 0}
-    m_FontSize: 0
-    m_FontStyle: 0
-    m_Alignment: 0
-    m_WordWrap: 0
-    m_RichText: 1
-    m_TextClipping: 0
-    m_ImagePosition: 0
-    m_ContentOffset: {x: 0, y: 0}
-    m_FixedWidth: 0
-    m_FixedHeight: 0
-    m_StretchWidth: 1
-    m_StretchHeight: 0
-  _damageStyle:
-    m_Name: 
-    m_Normal: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_Hover: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_Active: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_Focused: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_OnNormal: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_OnHover: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_OnActive: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_OnFocused: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_Border:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Margin:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Padding:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Overflow:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Font: {fileID: 0}
-    m_FontSize: 0
-    m_FontStyle: 0
-    m_Alignment: 0
-    m_WordWrap: 0
-    m_RichText: 1
-    m_TextClipping: 0
-    m_ImagePosition: 0
-    m_ContentOffset: {x: 0, y: 0}
-    m_FixedWidth: 0
-    m_FixedHeight: 0
-    m_StretchWidth: 1
-    m_StretchHeight: 0
-  _durabilityStyle:
-    m_Name: 
-    m_Normal: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_Hover: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_Active: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_Focused: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_OnNormal: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_OnHover: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_OnActive: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_OnFocused: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_Border:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Margin:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Padding:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Overflow:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Font: {fileID: 0}
-    m_FontSize: 0
-    m_FontStyle: 0
-    m_Alignment: 0
-    m_WordWrap: 0
-    m_RichText: 1
-    m_TextClipping: 0
-    m_ImagePosition: 0
-    m_ContentOffset: {x: 0, y: 0}
-    m_FixedWidth: 0
-    m_FixedHeight: 0
-    m_StretchWidth: 1
-    m_StretchHeight: 0
-  _statusStyle:
-    m_Name: 
-    m_Normal: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_Hover: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_Active: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_Focused: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_OnNormal: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_OnHover: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_OnActive: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_OnFocused: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_Border:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Margin:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Padding:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Overflow:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Font: {fileID: 0}
-    m_FontSize: 0
-    m_FontStyle: 0
-    m_Alignment: 0
-    m_WordWrap: 0
-    m_RichText: 1
-    m_TextClipping: 0
-    m_ImagePosition: 0
-    m_ContentOffset: {x: 0, y: 0}
-    m_FixedWidth: 0
-    m_FixedHeight: 0
-    m_StretchWidth: 1
-    m_StretchHeight: 0
-  _damageDisplayTimer: 0
-  _durabilityDisplayTimer: 0
 --- !u!95 &100000074
 Animator:
   serializedVersion: 7
